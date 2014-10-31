@@ -1,0 +1,54 @@
+Story: Rock-paper-scissors-lizard-spock game
+
+Rock-paper-scissors-lizard-spock is a popular expansion to the game rock-paper-scissors 
+(http://en.wikipedia.org/wiki/Rock-paper-scissors), invented by Sam Kass. 
+It adds "Spock" and "lizard" to the standard three. 
+"Spock" is signified with the Star Trek Vulcan salute, 
+while "lizard" is shown by forming the hand into a sock-puppet-like mouth. 
+It appeared in an episode of the sitcom The Big Bang Theory, "The Lizard-Spock Expansion," in 2008.
+
+As a player
+I want to test the logic of the game
+So I'll know who's the winner in each game.
+
+Scenario: Two people playing
+Given Leonard and Sheldon start playing
+When Leonard throws rock 
+And Sheldon throws lizard
+Then rock beats lizard
+
+When Leonard throws rock
+And Sheldon throws scissors
+Then rock beats scissors 
+
+When Leonard throws lizard
+And Sheldon throws paper
+Then lizard beats paper 
+
+When Leonard throws lizard
+And Sheldon throws spock
+Then lizard beats spock 
+
+When Leonard throws spock
+And Sheldon throws rock
+Then spock beats rock
+
+When Leonard throws spock 
+And Sheldon throws scissors
+Then spock beats scissors 
+
+When Leonard throws scissors
+And Sheldon throws lizard
+Then scissors beats lizard 
+
+When Leonard throws scissors
+And Sheldon throws paper
+Then scissors beats paper
+
+When Leonard throws paper
+And Sheldon throws rock
+Then paper beats rock 
+
+When Leonard throws paper
+And Sheldon throws spock
+Then paper beats spock 

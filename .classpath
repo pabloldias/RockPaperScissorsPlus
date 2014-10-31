@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="/UnitTesting/lib/easymock2.3/easymock.jar"/>
+	<classpathentry kind="lib" path="/Academico/lib/jbehave-core-2.4.jar"/>
+	<classpathentry kind="lib" path="/Academico/lib/hamcrest-all-1.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
